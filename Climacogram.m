@@ -1,4 +1,4 @@
-function Climacogram(Tseries)
+function H=Climacogram(Tseries)
 nk=round(length(Tseries)/10);
 k=1:nk;
 sk=zeros(nk,1);
